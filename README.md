@@ -40,6 +40,8 @@ Go to the iDRAC Web Interface and perform the following steps:
 * Set **Static DNS Server 1** to your Docker Host IP you set in the `dnsmasq.conf` file above.
 * Click **Apply**.
 
+<img width="1770" height="779" alt="image" src="https://github.com/user-attachments/assets/f9292b31-cea5-44da-b2f5-264da229eb16" />
+
 ### Update and Rollback
 * Navigate to **Overview** > **iDRAC Settings** > **Update and Rollback**.
 * Change the **File Location** radio button to **HTTP**.
@@ -47,3 +49,5 @@ Go to the iDRAC Web Interface and perform the following steps:
   * *Note: Do not use the IP address here. The iDRAC must use the hostname so the local DNS resolver can intercept it.*
 * Leave the **Path** and **Catalog Filename** fields blank.
 * Click **Check for Update**.
+
+<img width="1770" height="1649" alt="image" src="https://github.com/user-attachments/assets/7c307531-1ad7-4888-bff9-f6b53a3b8708" />
